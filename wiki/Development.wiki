@@ -1,0 +1,23 @@
+= Development Introduction =
+
+Personal Pokemon (PPokemon) is currently in Active Development.  This means that not all of the planned features are fully developed yet.  PPokemon is on a quarterly development schedule.  If you are interested in participating in this project email joesox.  I am interested in someone taking the lead in this project.
+
+== Developer Standards ==
+We ask that all developers use the following guidelines to ensure stable versions and not break any versions of PPokemon.
+
+
+=== SLMIV Development:===
+  # Work with a copy of the latest version PPokemonVisual Studio project.
+  # Thoroughly test your working copy.
+  # Repeat step 1 - 3 until no bugs.
+  # Commit changes.
+  # Update issue trackers.
+  # If needed, make sure joesox updates PPokemon websites with current documentation
+
+== Development Schedule ==
+[href="http://www.google.com/calendar/render?cid=rio8j5ilmqnd1rgunlhedeq3mc%40group.calendar.google.com http://www.google.com/calendar/images/ext/gc_button1_en.gif]
+
+||DATE||PLANNED||
+||11-25-2007 11:59pm||End of active development||
+||02-15-2008 12:00am||Start of active development. Work on issues||
+||02-17-2008 11:59pm||End of active development.|| 
