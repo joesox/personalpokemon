@@ -5,4 +5,65 @@
 Personal Pokemon (PPokemon) reads XML files and converts that data into Pokemon Card objects.  This page explains how you can create your own Cards and Decks using XML.
 
 
-= Details =
+== CardType (case insensitive) ==
+Null
+Basic
+Stage1
+Stage2
+LevelUp
+Energy
+Trainer
+Supporter
+Stadium
+
+== CardEventName (case insensitive) == 
+FlipACoin
+AddDamageToAttack
+AddSpecialCToAttack
+ChooseOpponPokemon
+MultiplyDamageByNumberOfPokemonInPlay
+DrawACard
+DiscardAnEnergy
+SearchDeckForBasic
+ShuffleDeck
+IfKnockedOut
+None
+
+== PokemonTYPE (case insensitive) ==
+Colorless
+Darkness
+Fighting
+Fire
+Grass
+Lightning
+Metal
+Null
+Psychic
+Water
+
+== Sample Card XML ==
+{{{
+  <Card description="Beedrill Stage2 (1/112)">
+    <CardProperties HP="90" CardType="Stage2">
+      <Pokemon PokemonType="Grass">Beedrill</Pokemon>
+      <Resistance PokemonType="Null">0</Resistance>
+      <RetreatCost PokemonType="Null">0</RetreatCost>
+      <Weakness PokemonType="Fire">1</Weakness>
+    </CardProperties>
+    <Attacks>
+      <Attack title="Poison Sting" body="The Defending Pokemon is now Poisoned.">
+        <CardDirections CardEventName="AddSpecialCToAttack">Poisoned</CardDirections>
+        <AttackProperties damage="20">
+          <PokemonType qty="1">Grass</PokemonType>
+        </AttackProperties>
+      </Attack>
+      <Attack title="Link Needle" body="This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play.">
+        <CardDirections CardEventName="MultiplyDamageByNumberOfPokemonInPlay">+30</CardDirections>
+        <AttackProperties damage="50">
+          <PokemonType qty="1">Grass</PokemonType>
+          <PokemonType qty="2">Colorless</PokemonType>
+        </AttackProperties>
+      </Attack>
+    </Attacks>
+  </Card>
+}}}
