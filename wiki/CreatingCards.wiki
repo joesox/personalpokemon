@@ -16,6 +16,7 @@ Energy
 Trainer
 Supporter
 Stadium
+(default is Null)
 }}}
 
 == CardEventName (case insensitive) == 
@@ -31,6 +32,7 @@ SearchDeckForBasic
 ShuffleDeck
 IfKnockedOut
 None
+(default is None)
 }}}
 
 == PokemonTYPE (case insensitive) ==
@@ -42,9 +44,11 @@ Fire
 Grass
 Lightning
 Metal
+None
 Null
 Psychic
 Water
+(default is Null)
 }}}
 
 == Sample Card XML ==
