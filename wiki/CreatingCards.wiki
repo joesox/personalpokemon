@@ -26,6 +26,7 @@ FlipACoin
 AddDamageToAttack
 AddSpecialCToAttack
 ChooseOpponPokemon
+ChooseCardFromHandPlaceInDeck
 MultiplyDamageByNumberOfPokemonInPlay
 DrawACard
 DiscardAnEnergy
