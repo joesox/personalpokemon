@@ -6,6 +6,7 @@ Personal Pokemon (PPokemon) reads XML files and converts that data into Pokemon 
 
 
 == CardType (case insensitive) ==
+{{{
 Null
 Basic
 Stage1
@@ -15,8 +16,10 @@ Energy
 Trainer
 Supporter
 Stadium
+}}}
 
 == CardEventName (case insensitive) == 
+{{{
 FlipACoin
 AddDamageToAttack
 AddSpecialCToAttack
@@ -28,8 +31,10 @@ SearchDeckForBasic
 ShuffleDeck
 IfKnockedOut
 None
+}}}
 
 == PokemonTYPE (case insensitive) ==
+{{{
 Colorless
 Darkness
 Fighting
@@ -40,6 +45,7 @@ Metal
 Null
 Psychic
 Water
+}}}
 
 == Sample Card XML ==
 {{{
