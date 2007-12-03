@@ -1,0 +1,8 @@
+#How to Create a Card using XML.
+
+= Introduction =
+
+Personal Pokemon (PPokemon) reads XML files and converts that data into Pokemon Card objects.  This page explains how you can create your own Cards and Decks using XML.
+
+
+= Details =
