@@ -23,8 +23,9 @@ Stadium
 == CardEventName (case insensitive) == 
 {{{CardEventName}}} is an attribute found in the {{{CardDirections}}} Element. 
 ||XML Path||
-||{{{/Card/Attacks/Attack/CardDirections}}}}||
+||{{{/Card/Attacks/Attack/CardDirections}}}||
 There needs to be one {{{CardDirections}}} line for each action in the directions.  These lines must be in the correct sequence listed from top to bottom in the xml. For example, the value "HEADS = NEXT" for {{{FlipACoin}}} means 'Flip a coin if HEADS go to NEXT CardDirections' then the next {{{CardDirections}}} will hold the variables for the next action. 
+
 ||CardEventName||Value||Example||
 ||FlipACoin||>result = command<||{{{<CardDirections CardEventName="FlipACoin">HEADS = NEXT</CardDirections>}}}||
 ||AddDamageToAttack||||||
