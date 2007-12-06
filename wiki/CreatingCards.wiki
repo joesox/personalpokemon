@@ -29,6 +29,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||FlipACoin||>result = command<||{{{<CardDirections CardEventName="FlipACoin">HEADS = NEXT</CardDirections>}}}||
 ||AddDamageToAttack||>number to add to opponent's damage counter<||{{{<CardDirections CardEventName="AddDamageToAttack">40</CardDirections>}}}||
 ||AddSpecialCToAttack||>special condition<||{{{<CardDirections CardEventName="AddSpecialCToAttack">Paralyzed</CardDirections>}}}||
+||AttachCardToAPokemon||>CardType<||{{{<CardDirections CardEventName="AttachCardToAPokemon">Energy</CardDirections>}}}||
 ||ChooseOpponPokemon||||||
 ||ChooseCardFromHandPlaceInDeck||||||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
