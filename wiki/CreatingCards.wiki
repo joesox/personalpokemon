@@ -28,7 +28,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 
 ||CardEventName||Value||Example||
 ||FlipACoin||>result = command<||{{{<CardDirections CardEventName="FlipACoin">HEADS = NEXT</CardDirections>}}}||
-||AddDamageToAttack||||||
+||AddDamageToAttack||>number to add to opponent's damage counter<||{{{<CardDirections CardEventName="AddDamageToAttack">40</CardDirections>}}}||
 ||AddSpecialCToAttack||>special condition<||{{{<CardDirections CardEventName="AddSpecialCToAttack">Paralyzed</CardDirections>}}}||
 ||ChooseOpponPokemon||||||
 ||ChooseCardFromHandPlaceInDeck||||||
