@@ -36,8 +36,8 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||DrawACard||||||
 ||DiscardAnEnergy||||||
 ||RemoveDamageCounter||||||
-||SearchDeckForBasic||||||
-||SearchDeckForEnergy||||||
+||SearchDeckForBasic||PokemonTYPE||{{{<CardDirections CardEventName="SearchDeckForBasic">Grass</CardDirections>}}}||
+||SearchDeckForEnergy||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForEnergy">Grass</CardDirections>}}}||
 ||SelectAllPokemonType||||||
 ||ShuffleDeck||||||
 ||IfKnockedOut||||||
