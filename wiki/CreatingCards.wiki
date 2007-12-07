@@ -34,7 +34,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||ChoosePokemon||||||
 ||ChooseCardFromHandPlaceInDeck||||||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
-||DrawACard||||||
+||DrawACard||>times to draw a card from top of the deck (can leave blank if 1 time)<||{{{<CardDirections CardEventName="DrawACard">5</CardDirections>}}}||
 ||DiscardAnEnergy||||||
 ||RemoveDamageCounter||||||
 ||SearchDeckForBasic||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasic">Grass</CardDirections>}}}||
@@ -48,6 +48,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfNextDamageLessThan||||||
 ||IfFlipHeads||||||
 ||IfFlipTails||||||
+||OpponentChooseCardsFromDrawn||>number of cards for opponent to choose<||{{{<CardDirections CardEventName="OpponentChooseCardsFromDrawn">3</CardDirections>}}}||
 ||OpponentNextAttack||||||
 ||None||||||
 ||(default is None)||||||
