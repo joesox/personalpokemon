@@ -39,6 +39,8 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||RemoveDamageCounter||||||
 ||SearchDeckForBasic||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasic">Grass</CardDirections>}}}||
 ||SearchDeckForEnergy||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForEnergy">Grass</CardDirections>}}}||
+||SearchDeckForPokemon||||||
+||SearchDeckForBasicOrEvolution||||||
 ||SelectAllPokemonType||||||
 ||SwitchDefendingWithBenched||||||
 ||ShuffleDeck||||{{{<CardDirections CardEventName="ShuffleDeck"></CardDirections>}}}||
