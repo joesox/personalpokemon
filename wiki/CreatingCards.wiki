@@ -31,6 +31,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||AddSpecialCToAttack||>special condition<||{{{<CardDirections CardEventName="AddSpecialCToAttack">Paralyzed</CardDirections>}}}||
 ||AttachCardToAPokemon||>CardType<||{{{<CardDirections CardEventName="AttachCardToAPokemon">Energy</CardDirections>}}}||
 ||ChooseOpponPokemon||||||
+||ChoosePokemon||||||
 ||ChooseCardFromHandPlaceInDeck||||||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
 ||DrawACard||||||
@@ -43,6 +44,8 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||ShuffleDeck||||{{{<CardDirections CardEventName="ShuffleDeck"></CardDirections>}}}||
 ||IfKnockedOut||||||
 ||IfNextDamageLessThan||||||
+||IfFlipHeads||||||
+||IfFlipTails||||||
 ||OpponentNextAttack||||||
 ||None||||||
 ||(default is None)||||||
