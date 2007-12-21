@@ -36,6 +36,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
 ||DrawACard||>times to draw a card from top of the deck (can leave blank if 1 time)<||{{{<CardDirections CardEventName="DrawACard">5</CardDirections>}}}||
 ||DiscardAnEnergy||||||
+||DiscardSpecialEnergyCard||||||
 ||RemoveDamageCounter||||||
 ||SearchDeckForBasic||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasic">Grass</CardDirections>}}}||
 ||SearchDeckForEnergy||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForEnergy">Grass</CardDirections>}}}||
