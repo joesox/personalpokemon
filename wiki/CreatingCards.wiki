@@ -27,6 +27,8 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 
 ||CardEventName||Value||Example||
 ||AddDamageToAttack||>number to add to opponent's damage counter<||{{{<CardDirections CardEventName="AddDamageToAttack">40</CardDirections>}}}||
+||AddDamageToBenched||>number to add to opponent's damage counter<||{{{<CardDirections CardEventName="AddDamageToBenched">30</CardDirections>}}}||
+||AddDamageToSelf||>number to add to attacking pokemon's damage counter<||{{{<CardDirections CardEventName="AddDamageToSelf">30</CardDirections>}}}||
 ||AddSpecialCToAttack||>special condition<||{{{<CardDirections CardEventName="AddSpecialCToAttack">Paralyzed</CardDirections>}}}||
 ||AttachCardToAPokemon||>CardType<||{{{<CardDirections CardEventName="AttachCardToAPokemon">Energy</CardDirections>}}}||
 ||ChooseCardFromHandPlaceInDeck||||||
