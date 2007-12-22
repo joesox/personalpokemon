@@ -45,7 +45,8 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfFlipHeads||||||
 ||IfFlipTails||||||
 ||IfKnockedOut||||||
-||IfMorePrizeCards||||||
+||IfMorePrizeCards||||{{{<CardDirections CardEventName="IfMorePrizeCards"></CardDirections>}}}||
+||IfLessEnergyThanDefending||||{{{<CardDirections CardEventName="IfLessEnergyThanDefending"></CardDirections>}}}||
 ||IfNextDamageLessThan||||||
 ||IfNoSpecialC||||{{{<CardDirections CardEventName="IfNoSpecialC"></CardDirections>}}}||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
