@@ -42,6 +42,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfFlipHeads||||||
 ||IfFlipTails||||||
 ||IfKnockedOut||||||
+||IfMorePrizeCards||||||
 ||IfNextDamageLessThan||||||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
 ||None||||||
