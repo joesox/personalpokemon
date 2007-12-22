@@ -37,6 +37,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||DrawACard||>times to draw a card from top of the deck (can leave blank if 1 time)<||{{{<CardDirections CardEventName="DrawACard">5</CardDirections>}}}||
 ||FlipACoin||>result = command<||{{{<CardDirections CardEventName="FlipACoin">HEADS = NEXT</CardDirections>}}}||
 ||IfActivePokemon||||||
+||IfDamaged||||||
 ||IfDefendingHasPowers||||||
 ||IfFlipHeads||||||
 ||IfFlipTails||||||
