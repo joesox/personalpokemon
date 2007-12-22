@@ -64,6 +64,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||SelectAllPokemonType||||||
 ||ShuffleDeck||||{{{<CardDirections CardEventName="ShuffleDeck"></CardDirections>}}}||
 ||SwitchDefendingWithBenched||||{{{<CardDirections CardEventName="SwitchDefendingWithBenched"></CardDirections>}}}||
+||SwitchWithBenched||||{{{<CardDirections CardEventName="SwitchWithBenched"></CardDirections>}}}||
 ||(default is None)||||||
 
 
