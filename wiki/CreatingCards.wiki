@@ -49,7 +49,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfLessEnergyThanDefending||||{{{<CardDirections CardEventName="IfLessEnergyThanDefending"></CardDirections>}}}||
 ||IfNextDamageLessThan||||||
 ||IfNoSpecialC||||{{{<CardDirections CardEventName="IfNoSpecialC"></CardDirections>}}}||
-||MultiplyDamageByNumberOfPokemonInPlay||||||
+||MultiplyDamageByNumberOfPokemonInPlay||>number of damage to multiply by this same Pokemon in play count<||{{{<CardDirections CardEventName="MultiplyDamageByNumberOfPokemonInPlay">30</CardDirections>}}}||
 ||None||||||
 ||OpponentChooseCardsFromDrawn||>number of cards for opponent to choose<||{{{<CardDirections CardEventName="OpponentChooseCardsFromDrawn">3</CardDirections>}}}||
 ||OpponentNextAttack||||||
