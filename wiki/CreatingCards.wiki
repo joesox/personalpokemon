@@ -100,3 +100,33 @@ Water
     </Attacks>
   </Card>
 }}}
+== Sample 2 Card XML (with Poke-Power)==
+{{{
+  <Card description="Exploud ex">
+    <CardProperties HP="150" CardType="Stage2">
+      <Pokemon PokemonType="Colorless">Exploud</Pokemon>
+      <Resistance PokemonType="Null">0</Resistance>
+      <RetreatCost PokemonType="Colorless">3</RetreatCost>
+      <Weakness PokemonType="Fighting">0</Weakness>
+    </CardProperties>
+    <Power title="Extra Noise" body="As long as Exploud ex is your Active Pokemon, put 1 damage counter on each of your opponent's Pokemon-ex between turns.">
+      <CardDirections CardEventName="IfActivePokemon"></CardDirections>
+      <CardDirections CardEventName="ChooseOpponPokemon">ALL::ex</CardDirections>
+    </Power>
+    <Attacks>
+      <Attack title="Derail" body="Discard a Special Energy card, if any, attached to the Defending Pokemon.">
+        <CardDirections CardEventName="DiscardSpecialEnergyCard"></CardDirections>
+        <AttackProperties damage="40">
+          <PokemonType qty="2">Colorless</PokemonType>
+        </AttackProperties>
+      </Attack>
+      <Attack title="Hyper Tail" body="If the Defending Pokemon has any Poke-Powers or Poke-Bodies, this attack does 60 damage plus 20 more damage.">
+        <CardDirections CardEventName="IfDefendingHasPowers">NEXT</CardDirections>
+        <CardDirections CardEventName="AddDamageToAttack">20</CardDirections>
+        <AttackProperties damage="60">
+          <PokemonType qty="3">Colorless</PokemonType>
+        </AttackProperties>
+      </Attack>
+    </Attacks>
+  </Card>
+}}}
