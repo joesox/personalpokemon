@@ -35,7 +35,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||ChooseCardFromHandPlaceInDeck||||||
 ||ChooseOpponPokemon||>Location<||{{{<CardDirections CardEventName="ChooseOpponPokemon">Benched</CardDirections>}}}||
 ||ChoosePokemon||||||
-||DiscardAnEnergy||||||
+||DiscardAnEnergy||>Location<||{{{<CardDirections CardEventName="DiscardAnEnergy">Defending</CardDirections>}}}||
 ||DiscardSpecialEnergyCard||||||
 ||DrawACard||>times to draw a card from top of the deck (can leave blank if 1 time)<||{{{<CardDirections CardEventName="DrawACard">5</CardDirections>}}}||
 ||FlipACoin||>result = command<||{{{<CardDirections CardEventName="FlipACoin">HEADS = NEXT</CardDirections>}}}||
