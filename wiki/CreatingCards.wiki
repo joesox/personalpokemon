@@ -44,6 +44,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfKnockedOut||||||
 ||IfMorePrizeCards||||||
 ||IfNextDamageLessThan||||||
+||IfNoSpecialC||||{{{<CardDirections CardEventName="IfNoSpecialC"></CardDirections>}}}||
 ||MultiplyDamageByNumberOfPokemonInPlay||||||
 ||None||||||
 ||OpponentChooseCardsFromDrawn||>number of cards for opponent to choose<||{{{<CardDirections CardEventName="OpponentChooseCardsFromDrawn">3</CardDirections>}}}||
