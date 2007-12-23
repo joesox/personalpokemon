@@ -53,7 +53,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||LookAtDeckCards||>times to draw a card from the deck (can leave blank if 1 time) and these will not go into your hand<||{{{<CardDirections CardEventName="LookAtDeckCards">7</CardDirections>}}}||
 ||MinusAmountMultipliedByAttachedDamage||>number of damage<||{{{<CardDirections CardEventName="MinusAmountMultipliedByAttachedDamage">10</CardDirections>}}}||
 ||MultiplyDamageByNumberOfPokemonInPlay||>number of damage to multiply by this same Pokemon in play count<||{{{<CardDirections CardEventName="MultiplyDamageByNumberOfPokemonInPlay">30</CardDirections>}}}||
-||MultiplyByDamageOn||>Location<||{{{<CardDirections CardEventName="MultiplyByDamageOn">Self</CardDirections>}}}||
+||MultiplyByDamageOnSelf||>number of damage points to multiply count by<||{{{<CardDirections CardEventName="MultiplyByDamageOnSelf">10</CardDirections>}}}||
 ||MultiplyByNonUsedEnergyCount||>PokemonTYPE<||{{{<CardDirections CardEventName="MultiplyByNonUsedEnergyCount">Water</CardDirections>}}}||
 ||None||||||
 ||OpponentChooseCardsFromDrawn||>number of cards for opponent to choose<||{{{<CardDirections CardEventName="OpponentChooseCardsFromDrawn">3</CardDirections>}}}||
