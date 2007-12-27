@@ -64,7 +64,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||SearchDeckForBasicPlaceToBench||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasicPlaceToBench">None</CardDirections>}}}||
 ||SearchDeckForEnergy||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForEnergy">Grass</CardDirections>}}}||
 ||SearchDeckForPokemon||>true if stop at first one<||{{{<CardDirections CardEventName="SearchDeckForPokemon">true</CardDirections>}}}||
-||SelectAllPokemonType||||||
+||SelectAllPokemonType||>Location = PokemonTYPE<||{{{<CardDirections CardEventName="SelectAllPokemonType">self = Grass</CardDirections>}}}||
 ||ShuffleDeck||||{{{<CardDirections CardEventName="ShuffleDeck"></CardDirections>}}}||
 ||SwitchDefendingWithBenched||||{{{<CardDirections CardEventName="SwitchDefendingWithBenched"></CardDirections>}}}||
 ||SwitchWithBenched||||{{{<CardDirections CardEventName="SwitchWithBenched"></CardDirections>}}}||
