@@ -50,7 +50,6 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||IfLessEnergyThanDefending||||{{{<CardDirections CardEventName="IfLessEnergyThanDefending"></CardDirections>}}}||
 ||IfNextDamageLessThan||||||
 ||IfNoSpecialC||||{{{<CardDirections CardEventName="IfNoSpecialC"></CardDirections>}}}||
-||LookAtDeckCards||>times to draw a card from the deck (can leave blank if 1 time) and these will not go into your hand<||{{{<CardDirections CardEventName="LookAtDeckCards">7</CardDirections>}}}||
 ||MinusAmountMultipliedByAttachedDamage||>number of damage<||{{{<CardDirections CardEventName="MinusAmountMultipliedByAttachedDamage">10</CardDirections>}}}||
 ||MultiplyDamageByNumberOfPokemonInPlay||>number of damage to multiply by this same Pokemon in play count<||{{{<CardDirections CardEventName="MultiplyDamageByNumberOfPokemonInPlay">30</CardDirections>}}}||
 ||MultiplyByDamageOnSelf||>number of damage points to multiply count by<||{{{<CardDirections CardEventName="MultiplyByDamageOnSelf">10</CardDirections>}}}||
