@@ -59,7 +59,7 @@ There needs to be one {{{CardDirections}}} line for each action in the direction
 ||OpponentNextAttack||||||
 ||RemoveDamageCounter||>int< OR >DAMAGEDONE<||{{{<CardDirections CardEventName="RemoveDamageCounter">2</CardDirections>}}}||
 ||SearchDeckForBasic||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasic">Grass</CardDirections>}}}||
-||SearchDeckForBasicOrEvolution||||||
+||SearchDeckForBasicOrEvolution||>int<||{{{<CardDirections CardEventName="SearchDeckForBasicOrEvolution">1</CardDirections>}}}||
 ||SearchDeckForBasicPlaceToBench||>PokemonTYPE<||{{{<CardDirections CardEventName="SearchDeckForBasicPlaceToBench">None</CardDirections>}}}||
 ||SearchDeckForEnergy||>PokemonTYPE< OR >PokemonTYPE = Location<||{{{<CardDirections CardEventName="SearchDeckForEnergy">Grass = hand</CardDirections>}}}||
 ||SearchDeckForPokemon||>true if stop at first one<||{{{<CardDirections CardEventName="SearchDeckForPokemon">true</CardDirections>}}}||
