@@ -1,0 +1,64 @@
+/////////////////////////////////////////////////////////
+// PPokemon - Personal Pokemon v1.14.0.0 Active Development
+// by Joseph P. Socoloski III 
+// Copyright 2007-2008. All Rights Reserved.
+// NOTE:   
+// WHAT'S NEW: 	
+//          -Double-clicking on grey on Card or Card in handlist displays Card-popup.
+//          -Trainer and Support card Support.
+//          -Decks have version in xml to document xml changes.
+// LIMITS:  
+//          -Limited 'ex' Card support (does not display PokeBody if card has more than one attack. no extra special events support)
+//          -Currently, Stadium Card support. 
+//          -Currently, no Retreat support (Retreat Button is shown on Card Details Form).
+//          -Currently, can not attach Energy Cards to Benched Pokemon.
+//          -Currently, When ActivePokemon has a SpecialCondition the card does not turn but it is labelled correctly.
+//          -Drag-n-Drop of cards is not supported but it is enabled. (in other words, drag-n-drop is not supported)
+// TODO:    
+//          -Finish Trainer card attacks (Supporter-Rival-OpponentNextAttack is its second attack?, Super Scoopup)
+//          -BUG: Trainer got sent to Bench? - catch during PlaceCard?
+//          -Finish some Terra attacks ()
+//          -Finish SearchDeckForBasicOrEvolution to support Ex (This probably means adding BasicEx, Stage1Ex etc. to PPokemon.Cards.Cardtype)
+//          -Finish Retreat on Card Details Form
+//          -BUG:  -1 HP with Bench and being knockedout (Fighting and Water deck)
+//          -Poke-Body/Power: continue working on supporting them
+//          -Attacks: continue working on supporting them
+//          -Attach Energy Cards to Bench Pokemon
+//          -Continue to work on Ops.GetBestEnabledAttack()
+//          -Drag and Drop cards on cardholder, update the cardholders (activecard=true, damage etc.)
+//          -Redesign application: Seperate GameEngine in seperate dll project etc.
+// ENABLED CardEventNames in this release for Attacks:
+//      AddDamageToAttack
+//      AddDamageToBenched
+//      AddDamageToEachBenched
+//      AddDamageToSelf
+//      AddSpecialCToAttack
+//      AttachCardToAPokemon
+//      ChooseOpponPokemon
+//      DiscardAnEnergy
+//      DrawACard
+//      FlipACoin
+//      IfDamaged
+//      IfDefendingDamaged
+//      IfFlipHeads
+//      IfFlipTails
+//      IfLessEnergyThanDefending
+//      MinusAmountMultipliedByAttachedDamage
+//      MultiplyByDamageOnSelf
+//      None
+//      OpponentChooseCardsFromDrawn
+//      RemoveDamageCounter
+//      SearchDeckForBasic
+//      SearchDeckForBasicPlaceToBench
+//      SearchDeckForEnergy
+//      SearchDeckForPokemon
+//      SelectAllPokemonType
+//      SwitchWithBenched
+//      ShuffleDeck
+//LICENSE
+//BY DOWNLOADING AND USING, YOU AGREE TO THE FOLLOWING TERMS:
+//If it is your intent to use this software for non-commercial purposes, 
+//such as in academic research, this software is free and is covered under 
+//the GNU GPL License, given here: <http://www.gnu.org/licenses/gpl.txt> 
+////////////////////////////////////////////////////////////////////////////
+Third party licenses are located in the 'Third Party Licenses' folder.

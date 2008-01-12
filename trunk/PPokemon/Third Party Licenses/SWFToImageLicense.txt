@@ -1,0 +1,57 @@
+SWF To Image library License Agreement
+FREEWARE
+November 2006
+ 
+This is a legal agreement between you, the end user, and Bytescout.  By answering 'YES'
+you are agreeing to accept ownership of this product and to be bound by the terms of
+this agreement.  It also contains proprietary source code which you are entitled to use
+only under the terms of this license agreement. This License will continue as long as you use the Product.  
+However, it will terminate if you fail to comply with any of its terms or conditions. 
+You must agree, upon termination, to destroy all copies of the SWF To Image. 
+ 
+Bytescout License For SWF To Image
+ 
+1. Grant of License. Bytescout grants a limited, non-exclusive license to use one copy of the
+application development tool called SWF To Image for the purpose of developing applications for the
+Windows environment.  This copy of SWF To Image must be used by a single developer (single user).
+You may not network the SWF To Image or otherwise use it for development on more than one computer
+at the same time or by two different developers (users) at any time.  
+ 
+2. Runtime Distribution License.  Bytescout grants you a royalty-free right to distribute copies of
+the runtime files for use with applications you have developed using the SWF To Image. The SWF To Image
+runtime files are listed in Exhibit A.  These libraries may not be distributed for any other purpose
+than to accompany software that you have developed using the SWF To Image.  You may  use the SWF To Image
+in your specific purpose application programs, in which case Bytescout grants you permission under
+Bytescout 's copyright to use, give away or sell such programs without additional licenses or fees,
+as long as all copies of these programs bear a valid copyright notice and provided that your program
+is not merely a set or subset of the SWF To Image or a compilation or development tool or library which
+includes all or a portion of the SWF To Image, or is otherwise a product that is generally competitive
+with or a substitute for the SWF To Image.  This permission is granted solely for the purpose set forth
+above, and you are not authorized to use the SWF To Image in any other manner.
+ 
+3. Copyright.  The SWF To Image is owned by Bytescout and is protected by United States copyright laws
+and international treaty provisions.  You may make one copy of the software for backup purposes.
+You may not, under any circumstances, copy the manual and other written materials that accompany this software.
+ 
+5. Other Restrictions.  You may not rent, lease, sub-license, transfer, or sell the SOFTWARE. You
+may not translate, reverse engineer, decompile, disassemble the SOFTWARE. 
+ 
+No Warranty
+ 
+This documentation and the COM Server library (DLL) are provided "as is" without warranty of any kind,
+either expressed or implied, including but not limited to the implied warranties of merchantability and/or
+suitability for a particular purpose. The user assumes the entire risk of any damage caused by this software.
+ 
+GOVERNING LAW AND GENERAL PROVISIONS 
+This Agreement will be governed by the laws of the United States of America, excluding the application of
+its conflicts of law rules. If any part of this Agreement is found void and unenforceable, it will not
+affect the validity of the rest of the Agreement, which shall remain valid and enforceable according to
+its terms. You may not ship, transfer, or export the Software into any country or used in any manner
+prohibited by any export laws, restrictions or regulations. 
+This Agreement shall automatically terminate upon failure by you to comply with its terms. 
+ 
+Web site: http://www.bytescout.com
+ 
+Exhibit A
+ 
+SWFToImage.dll
