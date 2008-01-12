@@ -3,6 +3,10 @@
 
 Personal Pokemon (PPokemon) is currently in Active Development.  This means that not all of the planned features are fully developed yet.  PPokemon is on a quarterly development schedule.  If you are interested in participating in this project email joesox.  I am interested in someone taking the lead in this project.
 
+== Project Background and Mission Statement ==
+This project was started just because I couldn't find a Pokemon Solitare game. My son got me in to Pokemon and the Trading Card Game.  I discovered the existing Pokedex on the Pokemon website was for personal use so I designed the application for personal use in order to utilize the information avialable.  
+I quickly designed the project and I would like to seperate some parts of it in to their own dlls for easier development and patching/upgrades.
+
 == Developer Standards ==
 We ask that all developers use the following guidelines to ensure stable versions and not break any versions of PPokemon.
 
