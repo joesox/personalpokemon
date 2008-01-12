@@ -1,0 +1,192 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10EFCE85-D7BA-48B0-A9A2-871DD4EEC478}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PPokemon</RootNamespace>
+    <AssemblyName>PPokemon</AssemblyName>
+    <ApplicationIcon>turtwig.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PowerCollections, Version=1.0.2141.24679, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2005\Code Snippets\Visual C#\PowerCollections\Binaries\PowerCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardEnergyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CardEnergyPanel.Designer.cs">
+      <DependentUpon>CardEnergyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardHolder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CardPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CardPanel.Designer.cs">
+      <DependentUpon>CardPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardPopUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardPopUpForm.Designer.cs">
+      <DependentUpon>CardPopUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cards.cs" />
+    <Compile Include="CardTrainerPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CardTrainerPanel.Designer.cs">
+      <DependentUpon>CardTrainerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSV.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardEnergyPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CardEnergyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CardPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardPopUpForm.resx">
+      <DependentUpon>CardPopUpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardTrainerPanel.resx">
+      <DependentUpon>CardTrainerPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SWFToImage">
+      <Guid>{F52B2898-3CD9-4530-8F1E-2762A2783C33}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="387.ico" />
+    <Content Include="attacksound.wav">
+    </Content>
+    <Content Include="dpmfa387.png" />
+    <Content Include="EndSong.wav">
+    </Content>
+    <Content Include="ppokemon.ico" />
+    <None Include="app.config" />
+    <None Include="Resources\water.gif" />
+    <None Include="Resources\fighting.gif" />
+    <None Include="Resources\fire.gif" />
+    <None Include="Resources\grass.gif" />
+    <None Include="Resources\lightning.gif" />
+    <None Include="Resources\psychic.gif" />
+    <Content Include="Resources\CardBack_sm.jpg" />
+    <Content Include="Resources\CoinFlip39.jpg" />
+    <Content Include="Resources\colorless.gif" />
+    <Content Include="Resources\darkness.gif" />
+    <Content Include="Resources\ecard_darknessjpg.jpg" />
+    <Content Include="Resources\ecard_fighting.jpg" />
+    <Content Include="Resources\ecard_fire.jpg" />
+    <Content Include="Resources\ecard_grass.jpg" />
+    <Content Include="Resources\ecard_lighting.jpg" />
+    <Content Include="Resources\ecard_metal.jpg" />
+    <Content Include="Resources\ecard_psychic.jpg" />
+    <Content Include="Resources\ecard_water.jpg" />
+    <Content Include="Resources\GreyBack.jpg" />
+    <Content Include="Resources\metal.gif" />
+    <Content Include="Resources\null.gif" />
+    <Content Include="Resources\playmat bench.jpg" />
+    <Content Include="turtwig.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
