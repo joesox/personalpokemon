@@ -11,8 +11,8 @@ I quickly designed the project and I would like to seperate some parts of it in 
 We ask that all developers use the following guidelines to ensure stable versions and not break any versions of PPokemon.
 
 
-=== SLMIV Development:===
-  # Work with a copy of the latest version PPokemonVisual Studio project.
+=== PPokemon Development:===
+  # Work with a copy of the latest version PPokemon Visual Studio project.
   # Thoroughly test your working copy.
   # Repeat step 1 - 3 until no bugs.
   # Commit changes.
